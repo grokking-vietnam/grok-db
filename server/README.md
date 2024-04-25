@@ -21,3 +21,7 @@ Server response: OK pong
 
 # Improvement
 The client code currently establishes a new TCP stream connection for each request instead of reusing a single connection for all requests.
+
+# References
+- https://doc.rust-lang.org/book/ch20-01-single-threaded.html
+- https://stackoverflow.com/questions/44015638/simple-rust-tcp-server-and-client-do-not-receive-messages-and-never-terminates
